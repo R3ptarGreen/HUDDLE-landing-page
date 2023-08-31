@@ -21,6 +21,13 @@ module.exports = {
       fontSize: {
         base: '1.125rem',
       },
+      maxWidth: {
+        logoMobileX: '10rem',
+        logoDesktopX: '15rem',
+      },
+      maxHeight: {
+        logoMobileY: '1.25rem'
+      }
     },
   },
   plugins: [],

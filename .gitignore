@@ -1,0 +1,8 @@
+node_modules
+*.sketch
+*.xd
+*.fig
+.DS_Store
+style-guide.md
+README-template.md
+design

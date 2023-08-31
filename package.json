@@ -1,0 +1,15 @@
+{
+  "name": "Tailwind-huddle-landing-page",
+  "version": "1.0.0",
+  "description": "Design maket with Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwindcss -i ./src//CSS/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Edgar Mendez",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

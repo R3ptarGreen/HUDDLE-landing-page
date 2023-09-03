@@ -28,6 +28,9 @@ module.exports = {
       },
       maxHeight: {
         logoMobileY: '1.25rem'
+      },
+      boxShadow :{
+        cardShadow: '0rem 0.1875rem 0.675rem 0rem rgba(0,0,0,0.125)'
       }
     },
   },

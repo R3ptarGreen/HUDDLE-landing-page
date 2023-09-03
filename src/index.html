@@ -16,60 +16,68 @@
 </head>
 <body class="text-base font-sans">
   <Header class="bg-paleCyan bg-cover bg-center bg-no-repeat" style="background-image:url('/images/bg-hero-mobile.svg')">
-    <nav class="px-4 py-6 flex justify-between items-center">
-      <img class="max-w-logoMobileX max-h-logoMobileY" src="/images/logo.svg" alt="logo">
+    <nav class="px-4 py-6 flex justify-between items-center md:px-10">
+      <img class="max-w-logoMobileX max-h-logoMobileY md:max-w-logoDesktopX md:max-h-full" src="/images/logo.svg" alt="logo">
       <button type="button" class="rounded-2xl px-5 py-1 bg-white font-poppins font-semibold hover:text-gray-400 shadow-cardShadow">Try It Free</button>
     </nav>
-    <div class="flex flex-col my-8">
-      <h2 class="font-poppins font-semibold text-2xl text-center px-6 my-4">
-        Build The Community Your Fans Will Love
-      </h2>
-      <p class="text-center my-4 px-4">
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. 
-      </p>
-      <button class="rounded-3xl bg-pink text-white px-14 py-2 font-poppins mx-auto font-semibold my-4 hover:bg-pinkHover shadow-sm shadow-pinkHover">
-        Get Started For Free
-      </button>
-      <img class="px-2 my-6" src="/images/illustration-mockups.svg" alt="mockup-hero">
-    </div>
+    <section class="flex flex-col my-8 md:flex-row md:my-2">
+      <article class="flex flex-col md:px-6">
+        <h2 class="font-poppins font-bold text-2xl text-center ps-6 my-4 md:text-start">
+          Build The Community <br> Your Fans Will Love
+        </h2>
+        <p class="text-center my-4 px-4 md:text-start md:px-6">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion. 
+        </p>
+        <button class="rounded-3xl bg-pink text-white px-14 py-2 font-poppins mx-auto font-semibold my-4 hover:bg-pinkHover shadow-sm shadow-pinkHover md:mr-auto md:mx-0 md:ms-6">
+          Get Started For Free
+        </button>
+      </article>
+      <img class="px-2 py-2 md:max-w-md md:mr-8 md:mb-8 md:pb-8 lg:max-w-2xl" src="/images/illustration-mockups.svg" alt="mockup-hero">
+    </section>
   </Header>
   <main class="relative z-0">
-    <section class="pt-14">
-      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6 rounded-2xl">
-        <img class="mx-auto my-12 px-4" src="/images/illustration-grow-together.svg" alt="Grow-together-img">
-        <h3 class="my-2 text-center text-xl font-bold font-poppins">
-          Grow Together
-        </h3>
-        <p class="text-center">
-          Generate meaningful discussions with your audience and build a strong, loyal community. 
-          Think of the insightful conversations you miss out on with a feedback form. 
-        </p>
+    <section class="pt-14 md:px-20">
+      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6 rounded-2xl md:flex md:flex-row-reverse lg:justify-between">
+        <img class="mx-auto my-12 px-4 max-w-xs lg:max-w-md md:mr-0" src="/images/illustration-grow-together.svg" alt="Grow-together-img">
+        <article class="self-center lg:max-w-xl lg:ps-20">
+          <h3 class="my-2 text-center text-xl font-bold font-poppins md:text-start">
+            Grow Together
+          </h3>
+          <p class="text-center md:text-start">
+            Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form. 
+          </p>
+        </article>
       </div>
-      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6  rounded-2xl">
-        <img class="mx-auto my-12 px-4" src="/images/illustration-flowing-conversation.svg" alt="Grow-together-img">
-        <h3 class="my-2 text-center text-xl font-bold font-poppins">
-          Flowing Conversations
-        </h3>
-        <p class="text-center">
-          You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-          have just-in-time loading for a more natural flow.
-        </p>
+      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6  rounded-2xl md:flex md:flex-row">
+        <img class="mx-auto my-12 px-4 max-w-xs lg:max-w-md md:ms-0" src="/images/illustration-flowing-conversation.svg" alt="Grow-together-img">
+        <article class="self-center lg:max-w-xl lg:pr-20">
+          <h3 class="my-2 text-center text-xl font-bold font-poppins md:text-start">
+            Flowing Conversations
+          </h3>
+          <p class="text-center md:text-start">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.
+          </p>
+        </article>
       </div>
-      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6  rounded-2xl">
-        <img class="mx-auto my-12 px-4" src="/images/illustration-your-users.svg" alt="Grow-together-img">
-        <h3 class="my-2 text-center text-xl font-bold font-poppins">
-          Your Users
-        </h3>
-        <p class="text-center">
-          It takes no time at all to integrate Huddle with your app's authentication solution. 
-          This means, once signed in to your app, your users can start chatting immediately.
-        </p>
+      <div class="shadow-cardShadow mx-4 my-10 px-8 py-6 rounded-2xl md:flex md:flex-row-reverse">
+        <img class="mx-auto my-12 px-4 max-w-xs lg:max-w-md md:mr-0" src="/images/illustration-your-users.svg" alt="Grow-together-img">
+        <article class="self-center lg:max-w-xl lg:ps-20">
+          <h3 class="my-2 text-center text-xl font-bold font-poppins md:text-start">
+            Your Users
+          </h3>
+          <p class="text-center md:text-start">
+            It takes no time at all to integrate Huddle with your app's authentication solution. 
+            This means, once signed in to your app, your users can start chatting immediately.
+          </p>
+        </article>
       </div>
     </section>
   </main>
   <div class="relative h-52">
-    <div class="bg-white absolute translate-y-1/2 left-0 right-0 mx-6 px-2 py-6 text-center rounded-2xl shadow-cardShadow">
+    <div class="bg-white absolute translate-y-1/2 left-0 right-0 mx-6 px-2 py-6 text-center rounded-2xl shadow-cardShadow md:max-w-md md:mx-auto lg:max-w-lg">
       <h3 class="font-semibold py-4">
         Ready To Build Your Community?
       </h3>
@@ -79,50 +87,55 @@
     </div>
   </div>
   <footer class=" bg-darkCyan pt-48 text-white"> 
-    <div>
-      <img class="my-6 mx-3 max-w-logoMobileX" src="/images/LogoWhite.svg" alt="logo-footer">
-      <picture class="flex mb-3">
-          <img class="max-h-4 mt-3 mx-3" src="/images/icon-location.svg" alt="icon-location">
-        <p class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua
-        </p>
-      </picture>
-      <picture class="flex mb-3">
-        <img class="max-h-4 mt-3 mx-3" src="/images/icon-phone.svg" alt="icon-phone">
+    <img class="my-6 mx-3 max-w-logoDesktopX md:ps-10" src="/images/LogoWhite.svg" alt="logo-footer">
+    <section class="md:flex md:justify-between md:px-6">
+        <div class="max-w-sm md:px-5">
+          <picture class="flex mb-3">
+            <img class="max-h-4 mt-3 mx-3" src="/images/icon-location.svg" alt="icon-location">
+            <p class="p-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua
+            </p>
+          </picture>
+          <picture class="flex mb-3">
+            <img class="max-h-4 mt-3 mx-3" src="/images/icon-phone.svg" alt="icon-phone">
+            <p class="p-2">
+              +1-543-123-4567
+            </p>
+          </picture>
+          <picture class="flex mb-3">
+        <img class="max-h-4 mt-3 mx-3" src="/images/icon-email.svg" alt="icon-phone">
       <p class="p-2">
-        +1-543-123-4567
+        example@huddle.com
       </p>
     </picture>
-    <picture class="flex mb-3">
-      <img class="max-h-4 mt-3 mx-3" src="/images/icon-email.svg" alt="icon-phone">
-    <p class="p-2">
-      example@huddle.com
-    </p>
-  </picture>
   </div>
-  <div class="mt-12 flex flex-col">
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      About Us
-    </a>
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      What We Do
-    </a>
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      FAQ
-    </a>
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      Career
-    </a >
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      Blog
-    </a >
-    <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
-      Contact Us
-    </a>
+  <div class="mt-12 flex flex-col md:flex-row md:mx-auto md:mt-6 lg:gap-12">
+    <div class="flex flex-col">
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        About Us
+      </a>
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        What We Do
+      </a>
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        FAQ
+      </a>
+    </div>
+    <div class="flex flex-col">
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        Career
+      </a >
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        Blog
+      </a >
+      <a class="mx-3 mb-3 max-w-logoMobileX hover:underline" href="#">
+        Contact Us
+      </a>
+    </div>
   </div>
-  <div class="flex flex-col justify-center mt-6">
-    <div class="flex justify-center gap-3">
+  <div class="flex flex-col justify-center mt-6 md:justify-between">
+    <div class="flex justify-center gap-3 md:justify-start">
       <a  class="w-8 h-8 text-center p-1 border border-white rounded-full flex justify-center items-center hover:text-pink hover:border-pink" href="#">
         <i class="fa-brands fa-facebook-f"></i>
       </a >
@@ -137,15 +150,17 @@
       &copy; Copyright 2018 Huddle. All rights reserved.
     </p>
   </div>
+</section>
+<section>
   <div class="text-center mt-10 flex flex-col items-center">
     <a class="rounded-full mb-2 max-w-logoMobileX max-h-24" href="https://github.com/R3ptarGreen" target="_blank">
       <img class="border border-black rounded-full max-h-24" src="/images/EM-1.png" alt="my-logo">
     </a>
-    <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/R3ptarGreen" target="_blank">Edgar Mendez</a>.
+    <p> 
+      Coded by <a class="hover:underline" href="https://github.com/R3ptarGreen" target="_blank">Edgar Mendez</a>.
     </p>
   </div>
+</section>
   </footer>
 </body>
 </html>

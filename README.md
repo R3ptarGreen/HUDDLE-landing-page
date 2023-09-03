@@ -32,7 +32,7 @@ Promotional landing page; the design was promoted on the Frontend Mentor platfor
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [HUDDLE](https://kaleidoscopic-concha-9dc626.netlify.app/)
 
 ### Contribution
 

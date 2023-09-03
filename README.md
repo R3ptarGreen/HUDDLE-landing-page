@@ -27,12 +27,11 @@ Promotional landing page; the design was promoted on the Frontend Mentor platfor
 
 ### Screenshot
 
-![mobile](/images/mobile.png)
 ![desktop](/images/desktop.png)
+![mobile](/images/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Contribution

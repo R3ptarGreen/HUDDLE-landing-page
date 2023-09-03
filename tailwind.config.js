@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         pink: 'hsl(322, 100%, 66%)',
+        pinkHover: 'hsl(322, 100%, 80%)',
         paleCyan: 'hsl(193, 100%, 96%)',
         darkCyan: 'hsl(192, 100%, 9%)',
         grayishBlue: 'hsl(208, 11%, 55%)',

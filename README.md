@@ -28,7 +28,7 @@ Promotional landing page; the design was promoted on the Frontend Mentor platfor
 ### Screenshot
 
 ![desktop](/images/desktop.png)
-![mobile](/images/mobile.png)
+![mobile](/images/mobile.jpeg)
 
 ### Links
 
